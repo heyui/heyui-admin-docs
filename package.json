@@ -1,0 +1,31 @@
+{
+  "name": "heyui-admin-docs",
+  "version": "1.0.0",
+  "description": "HeyUI Admin Documents",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "static-html-server": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "static-html-server -p 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyui/heyui-admin-docs.git"
+  },
+  "keywords": [
+    "book",
+    "markdown"
+  ],
+  "author": "vvpvvp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyui/heyui-admin-docs/issues"
+  },
+  "homepage": "https://heyui.github.io/heyui-admin-docs"
+}
