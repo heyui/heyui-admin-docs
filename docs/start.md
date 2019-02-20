@@ -1,19 +1,45 @@
+# 快速上手
 
-* [介绍](README.md)
-* [快速上手](start.md)
-* [说明文档](desc.md)
-  * [系统结构](structure.md)
-  * [系统参数配置](config.md)
-  * [样式](style.md)
-  * [数据请求](request.md)
-  * [数据模型](modal.md)
-  * [相关依赖](dependence.md)
-  * [hey-cli配置](heycli.md)
-  * [系统命名规则](namerules.md)
-  * [代码规范](code-specification.md)
-  * [Pull Request规范](rp.md)
-* [开发](dev.md)
-* [构建与发布](build.md)
-* [注意事项](help.md)
-* [赞助](donate.md)
-* [反馈](feedback.md)
+## 前序准备
+
+你的本地环境需要安装 `node`、`npm` 和 `git`。
+
+我们的技术栈基于 `ES2015+`、`Vue2.0`、`HeyUI`、`Hey-Cli` 提前了解和学习这些知识会非常有帮助。
+
+## 安装
+
+从 GitHub 仓库中直接安装最新的 heyui admin 代码。
+
+``` shell
+git clone --depth=1 https://github.com/ant-design/ant-design-pro.git my-project
+cd my-project
+```
+
+## 本地开发
+
+### 安装 hey-cli 脚手架
+
+确保本地已经安装 hey-cli 脚手架。
+
+如未安装，请执行一下命令
+
+``` shell
+npm install -g hey-cli
+```
+
+hey-cli文档：[https://github.com/heyui/hey-cli](https://github.com/heyui/hey-cli)
+
+
+### 安装依赖
+
+``` shell
+npm install
+```
+### 启动服务
+
+
+``` shell
+hey dev
+```
+
+浏览器将自动打开 http://localhost:9012
