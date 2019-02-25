@@ -1,8 +1,9 @@
 
 * [介绍](README.md)
 * [快速上手](start.md)
-* [开发注意事项](warn.md)
+* [开发之前](warn.md)
 * [说明文档](desc.md)
+  * [全局变量](global.md)
   * [系统结构](structure.md)
   * [系统参数配置](config.md)
   * [样式](style.md)
@@ -10,6 +11,7 @@
   * [数据模型](modal.md)
   * [相关依赖](dependence.md)
   * [hey-cli配置](heycli.md)
+  * [vue-cli配置](vuecli.md)
   * [系统命名规则](namerules.md)
   * [代码规范](code-specification.md)
   * [Pull Request规范](rp.md)
