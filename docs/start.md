@@ -32,18 +32,36 @@ $ npm install -g hey-cli
 hey-cli文档：[https://github.com/heyui/hey-cli](https://github.com/heyui/hey-cli)
 
 
-#### 安装依赖
+#### 1、安装依赖
 
 ``` shell
 $ npm install
 ```
-#### 启动服务
+#### 2、启动服务
 
 
 ``` shell
-$ hey dev
+$ npm run serve
 ```
 
 浏览器将自动打开 http://localhost:9012
 
 ### 使用 vue-cli 脚手架
+
+Admin 系统也集成了 vue-cli 的配置，按照以下步骤，即可直接使用vue-cli@3.0
+
+#### 1、将vue-cli文件夹下的配置复制至根目录
+
+系统已经将配置都集成完了，所以只需要将配置文件拷贝至根目录即可
+
+#### 2、安装依赖
+
+``` shell
+$ npm install
+```
+#### 3、启动服务
+
+
+``` shell
+$ npm run serve
+```

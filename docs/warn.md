@@ -2,7 +2,7 @@
 
 ## 连接后台配置
 
-如果你开发的前端代码，需要连接自己的后端服务，请按照以下步骤进行修改：
+如果你开发的代码，需要连接自己的后端服务，请按照以下步骤进行修改：
 
 ### 删除本地mock服务
 
@@ -16,7 +16,11 @@ require('./mock')
 ```
 ### 一、配置反向代理地址
 
-打开 `hey.conf.js` 文件，参考给出的示例，配置出devServer。
+如果使用 hey-cli，请打开 `hey.conf.js` 文件
+
+如果使用 vue-cli，请打开 `vue.config.js` 文件
+
+参考给出的示例，配置出devServer。
 
 ``` javascript
 devServer: {
@@ -35,7 +39,7 @@ devServer: {
 
 ### 重启启动
 
-由于修改了`hey.conf.js`配置文件，请重新启动服务。
+由于修改了`hey.conf.js` 或者 `vue.config.js` 配置文件，请重新启动服务。
 
 ## 二、页面加载Api控制
 
@@ -43,8 +47,24 @@ devServer: {
 
 这是由于 HeyUI Admin 系统已经将获取用户信息以及字典的规则写好了，有可能后端还没有提供这些接口，或者接口不一致。
 
+### 暂无后端数据
+
 打开  `app-frame.vue` 文件
 
+``` javascript
+mounted() {
+  this.loading = false;
+},
+```
+
 ### 如果后端已经提供相关的接口
+
+打开  `app-frame.vue` 文件和 `request.js` 文件
+
+将对应的接口替换成后端提供的接口。
+
+## 正常访问
+
+此时，再次打开首页，页面即可以正常访问了。
 
 
