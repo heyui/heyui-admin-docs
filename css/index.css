@@ -11,7 +11,9 @@ h5 {
   color: #2c3e50;
 }
 
-h3 {}
+h3 {
+  font-size: 20px;
+}
 
 #book_content h2 {}
 
@@ -286,7 +288,6 @@ body {
 }
 
 #book_content h3 {
-  margin-top: 30px;
   margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 0px;
