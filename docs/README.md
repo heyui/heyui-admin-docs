@@ -2,6 +2,8 @@
 
 HeyUI Admin 是一个企业级中后台前端的解决方案，其中集成了一系列前端系统的示例以及架构处理方案。
 
+<img src="https://user-images.githubusercontent.com/8186664/51449312-6cc17c00-1d66-11e9-9ec2-33e0ed703af9.png" style="max-width: 700px;"/>
+
 ## HeyUI组件库
 
 HeyUI 组件库是一个基于Vue.js的高质量UI组件库，如果你对该组件库还不了解，请至 [官网](https://www.heyui.top/) 查看。
