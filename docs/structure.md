@@ -15,8 +15,9 @@
     - heyui-config / heyui配置
     - dict-config / 字典配置
     - tree-config / 树配置
+    - autocomplete-config / autocomplete配置
+    - category-config / category配置
     - menu-config / 系统菜单配置
-    - echart-config / 图表风格配置
   - vue
     - components / 通用组件
     - filters / 通用filters
