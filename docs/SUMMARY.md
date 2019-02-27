@@ -9,16 +9,16 @@
   * [系统参数配置](config.md)
   * [数据请求封装](request.md)
   * [使用数据模型](modal.md)
-* [系统开发建议](desc.md)
+  * [Icon维护](icon.md)
+* 系统开发建议
   * [git commit规范](commit.md)
   * [系统命名规则](namerules.md)
-  * [代码规范](code-specification.md)
-  * [Pull Request规范](rp.md)
-* [脚手架说明](desc.md)
+  * [代码开发规范](code-specification.md)
+* 脚手架说明
   * [hey-cli配置](heycli.md)
   * [vue-cli配置](vuecli.md)
-<!-- * [开发](dev.md) -->
 * [构建与发布](build.md)
 * [注意事项](help.md)
+* [Pull Request规范](rp.md)
 * [赞助](donate.md)
 * [反馈](feedback.md)
