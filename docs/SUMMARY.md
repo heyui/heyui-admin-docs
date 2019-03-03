@@ -9,7 +9,7 @@
   * [系统参数配置](config.md)
   * [数据请求封装](request.md)
   * [使用数据模型](modal.md)
-  * [Icon维护](icon.md)
+  * [字体库Icon维护](icon.md)
 * 系统开发建议
   * [git commit规范](commit.md)
   * [系统命名规则](namerules.md)
