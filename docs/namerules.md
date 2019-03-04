@@ -6,12 +6,11 @@
 - camelCase: 小写驼峰式，比如：`myClass`
 - kebab-case: 小写短横线，比如：`my-class`
 
-## 命名原则
 文件或文件夹的命名遵循以下原则：
 
-- 定义类的，统一使用PascalCase(大写驼峰式)命名规范，比如model文件夹中的数据模型定义
+- 定义数据模型，统一使用PascalCase(大写驼峰式)命名规范，比如model文件夹中的数据模型定义
 - 文件夹统一使用kebab-case(小写短横线)命名规范
-- 其他组件或类的，统一使用kebab-case(小写短横线)命名规范
+- 其他组件、js、css，统一使用kebab-case(小写短横线)命名规范
 
 基本原则就是大多数文件以及文件夹都使用kebab-case(小写短横线)命名规范。
 
@@ -25,9 +24,9 @@
 
 ## 文件夹命名规范
 
-文件夹全部使用kebab-case(小写短横线)命名规范。
+文件夹统一使用kebab-case(小写短横线)命名规范。
 
-其实，前期我们在通用组件定义的时候，全部使用的是PascalCase(大写驼峰式)命名规范的。
+其实，前期我们在通用组件定义的时候，统一使用的是PascalCase(大写驼峰式)命名规范的。
 
 ```
 - src / components
@@ -73,10 +72,55 @@ Vue.component('Qiniu', (resolve) => require(['components/common/qiniu'], resolve
 
 > 注意：model中的文件夹也应该使用kebab-case(小写短横线)命名规范。
 
+例：`dict-config.js`
+
 ### *.vue文件命名规范
 
 统一使用kebab-case(小写短横线)命名规范。
 
+例：`account-info.vue`
+
 ### *.less文件命名规范
 
 统一使用kebab-case(小写短横线)命名规范。
+
+例：`form-section.less`
+
+## css变量命名规范
+
+统一使用kebab-case(小写短横线)命名规范。
+
+``` html
+<style lang='less'>
+.app-home-vue {}
+</style>
+<template>
+  <div class="app-home-vue">
+  </div>
+</template>
+```
+
+## js变量命名规范
+
+统一使用camelCase（小写驼峰式）命名规范。
+
+## 路由命名规范
+
+参考以下示例：
+
+``` javascript
+{
+  path: '/form-detail',
+  name: 'FormDetail',
+  component: (resolve) => require(['components/demo-components/form-detail'], resolve),
+  meta: { title: '表单详情' }
+}
+```
+
+路由的两个命名：
+- path: 路径使用 kebab-case(小写短横线)
+- name: 路由命名使用 PascalCase(大写驼峰式)
+
+path命名主要遵循以下原则：
+- url中字母全部小写
+- 如果有单词拼接，使用中划线‘-’
