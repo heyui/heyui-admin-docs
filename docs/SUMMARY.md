@@ -8,7 +8,7 @@
   * [主题与样式](style.md)
   * [系统参数配置](config.md)
   * [数据请求封装](request.md)
-  * [使用数据模型](modal.md)
+  * [使用数据模型](model.md)
   * [字体库Icon维护](icon.md)
 * 系统开发建议
   * [git commit规范](commit.md)

@@ -321,7 +321,7 @@ info.parse({})
 ## 配置
 
 
-**manba-config.js**
+**model-config.js**
 默认的日期转换是使用当前时区的ISO日期格式, 比如: 2016-04-19T00:00:00+08:00
 ```javascript
 import Model from 'js-model';
