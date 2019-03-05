@@ -19,7 +19,7 @@
 Header部分只有一行，包括三个字段：type（必需）、scope（可选）和subject（必需）。
 
 #### type
-用于说明本次commit的类别，允许使用下面7个标识
+用于说明本次commit的类别，允许使用下面标识
 
 - feat：新功能（feature）
 - fix：修补bug
@@ -31,7 +31,7 @@ Header部分只有一行，包括三个字段：type（必需）、scope（可�
 - file: 添加文件素材
 
 #### scope
-用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
+用于说明 commit 影响的范围，比如Org, Account等等，视项目不同而不同。
 
 #### subject
 commit 目的的简短描述，不超过50个字符。
