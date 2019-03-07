@@ -392,11 +392,6 @@ body {
   color: #3eaf7c;
 }
 
-blockquote {
-  color: #8B8B8B;
-  font-style: italic;
-}
-
 #back_to_top {
   display: none;
   position: fixed;
@@ -591,9 +586,13 @@ a.book-footer-next-link {
   margin-top: 50px;
 }
 
-.book-tip {
+.book-tip, blockquote {
   background-color: #f3f5f7;
   border-color: #42b983;
+}
+
+blockquote p {
+  margin: 0;
 }
 
 .book-warning{
@@ -608,7 +607,7 @@ a.book-footer-next-link {
   color: #4d0000;
 }
 
-.book-tip,.book-warning,.book-danger {
+.book-tip,.book-warning,.book-danger,blockquote {
   padding: 20px;
   border-left-width: .5rem;
   border-left-style: solid;
