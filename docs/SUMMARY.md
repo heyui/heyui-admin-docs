@@ -11,6 +11,11 @@
   * [数据请求封装](request.md)
   * [使用数据模型](model.md)
   * [字体库Icon维护](icon.md)
+* 扩展组件
+  * [图表组件](chart.md)
+  * [富文本编辑器](richeditor.md)
+  * [代码编辑器](codeeditor.md)
+  * [Markdown编辑器](markdown.md)
 * 开发规范
   * [git commit规范](commit.md)
   * [系统命名规范](namerules.md)
