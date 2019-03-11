@@ -11,7 +11,7 @@
 从 github 仓库中直接下载最新的 heyui admin 代码。
 
 ``` shell
-$ git clone --depth=1 https://github.com/ant-design/ant-design-pro.git my-project
+$ git clone --depth=1 https://github.com/heyui/heyui-admin my-project
 $ cd my-project
 ```
 
