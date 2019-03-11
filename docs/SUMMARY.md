@@ -16,6 +16,7 @@
   * [富文本编辑器](richeditor.md)
   * [代码编辑器](codeeditor.md)
   * [Markdown编辑器](markdown.md)
+  * [百度地图](map.md)
 * 开发规范
   * [git commit规范](commit.md)
   * [系统命名规范](namerules.md)

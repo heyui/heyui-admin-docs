@@ -36,7 +36,7 @@ heyui-admin系统已经配置好了eslint的标准，如果你对标准有其他
 
 vetur: [vue编辑插件](https://marketplace.visualstudio.com/items?itemName=octref.vetur)
 
-prettier-vscode: [代码格式化工具，vetur内置格式化工具](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+Prettier - Code formatter: [代码格式化工具，vetur内置格式化工具](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 
 系统已经针对这两种插件做好配置，详细配置请参考 `.prettierrc.js`, `.vscode/settings.json` 文件。
