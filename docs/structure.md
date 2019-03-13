@@ -32,7 +32,7 @@
   - fonts / 字体库
   - markdown.less / Markdown插件的样式
   - overwrite.less / 对于组件库样式做自定义覆盖
-  - richEditor.less / 富文本编辑器
+  - richtext-editor.less / 富文本编辑器
   - var.js / 全局变量定义，提供给vue-cli
   - var.less / 全局变量定义，提供给hey-cli
 

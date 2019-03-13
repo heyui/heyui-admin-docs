@@ -6,9 +6,9 @@
 
 ### 删除本地mock服务
 
-`HeyUI Admin` 的代码是直接开启了本地Mock的，所以第一步将本地mock服务关闭。
+`HeyUI Admin` 的代码是直接开启了本地Mock的，所以第一步需要将本地mock服务关闭。
 
-所以，请屏蔽或者删除 `app.js` 文件中的以下代码。
+请屏蔽或者删除 `app.js` 文件中的以下代码。
 
 ``` javascript
 // 使用mock文件， 自己开发的时候请删除
