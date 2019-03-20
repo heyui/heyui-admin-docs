@@ -25,13 +25,15 @@
 
 如果你使用的是vue-cli脚手架，可以通过修改  `var.js` 自定义主题。
 
-由于系统 var.less 中存在一系列的继承，并且js的可读性很差，所以还是建议修改 `var.less` 文件，然后使用 `less-to-js` 工具转换成 `var.js` 文件
+由于系统 var.less 中存在一系列的继承，并且js的可读性很差，所以还是建议修改 `var.less` 文件，然后使用 `less-to-js` 工具转换成 
+
+`var.js` 文件
 
 
 ``` shell
-$ npm install -g less-to-js
+$ npm install -g less-to-json
 $ cd src/css
-$ lesstojs var.less > var.js
+$ lessto --js var.less var.js
 
 ```
 
