@@ -1,5 +1,11 @@
 # eslint与编辑器插件
 
+## HeyUI开发插件
+
+推荐用户安装heyui组件库开发插件：
+
+heyui-snippets: [HeyUI开发插件](https://marketplace.visualstudio.com/items?itemName=vvpvvp.heyui-snippets)
+
 ## eslint
 
 heyui-admin系统已经配置好了eslint的标准，如果你对标准有其他的要求，可以修改`.eslintrc.js`文件。
@@ -48,9 +54,3 @@ Prettier - Code formatter: [代码格式化工具，vetur内置格式化工具](
 系统已经将文件格式化的标准与eslint的标准保持一致了，所以，当你对文件做完格式化的时候，文件将符合eslint要求的标准。
 
 `editor.formatOnSave` 暂时未开启，你可以按照你的开发需求在 `.vscode/settings.json` 中修改此配置。
-
-## HeyUI开发插件
-
-推荐用户安装一下插件：
-
-heyui-snippets: [HeyUI开发插件](https://marketplace.visualstudio.com/items?itemName=vvpvvp.heyui-snippets)
