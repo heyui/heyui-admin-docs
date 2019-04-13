@@ -24,7 +24,7 @@
 * 脚手架说明
   * [hey-cli配置](heycli.md)
   * [vue-cli配置](vuecli.md)
-<!-- * [构建与发布](build.md) -->
+* [构建与发布](build.md)
 * [eslint与编辑器插件](eslint.md)
 <!-- * [注意事项](help.md) -->
 * [贡献指南](rp.md)
